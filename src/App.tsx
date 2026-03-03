@@ -555,7 +555,7 @@ export default function App() {
       <Modal isOpen={isPrivacyOpen} onClose={() => setIsPrivacyOpen(false)} title="Privacy Policy">
         <div className="space-y-6">
           <p>Effective Date: [2/3/2026]<br />Last Updated: [2/3/2026]</p>
-          <p>UrbanGate (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your information when you use our platform.</p>
+          <p>UrbanGate is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your information when you use our platform.</p>
           
           <h3 className="text-zinc-100 font-bold">1. Information We Collect</h3>
           <p>We may collect the following categories of information:</p>
@@ -612,7 +612,7 @@ export default function App() {
       <Modal isOpen={isTermsOpen} onClose={() => setIsTermsOpen(false)} title="Terms of Service">
         <div className="space-y-6">
           <p>Effective Date: [2/3/2026]<br />Last Updated: [2/3/2026]</p>
-          <p>These Terms of Service (“Terms”) govern your access to and use of UrbanGate (“the Platform,” “we,” “our,” or “us”). By accessing or using the Platform, you agree to be bound by these Terms.</p>
+          <p>These Terms of Service (“Terms”) govern your access to and use of UrbanGate (“the Platform”). By accessing or using the Platform, you agree to be bound by these Terms.</p>
 
           <h3 className="text-zinc-100 font-bold">1. Eligibility</h3>
           <p>By using UrbanGate, you confirm that you are at least 18 years old, have the legal capacity to enter into these Terms, and the information you provide is accurate.</p>
